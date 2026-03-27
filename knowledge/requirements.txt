@@ -1,0 +1,20 @@
+﻿# 在顶部添加额外的源
+--index-url https://download.pytorch.org/whl/cu121
+
+
+torch
+torchvision
+
+minio
+langchain-openai
+langgraph
+sentence-transformers
+neo4j
+pymongo
+openai-agents
+pymilvus
+grandalf
+#minuer使用Uv方式安装
+#pip install --upgrade pip -i https://mirrors.aliyun.com/pypi/simple
+#pip install uv -i https://mirrors.aliyun.com/pypi/simple
+#uv pip install -U "mineru[all]" -i https://mirrors.aliyun.com/pypi/simple

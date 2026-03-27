@@ -1,0 +1,22 @@
+# 忽略虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略 IDE 配置 (PyCharm/VSCode)
+.idea/
+.vscode/
+
+# 忽略打包/发布文件
+dist/
+build/
+*.egg-info/
+
+# 忽略敏感配置文件
+.env
